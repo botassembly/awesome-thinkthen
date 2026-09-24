@@ -26,4 +26,4 @@ Nothing listed yet.
 
 ## Talks, videos, and articles
 
-Nothing listed yet.
+- Jev + graphical models: a paradigm shift? Frank Dellaert, 2026-09. One Jev request fills every probability table in an eight-variable Bayes network, and a second proposes the network's arrows. [Notebook](https://gist.github.com/dellaert/ed9c8ed6bbfa22a4f027474b9c3e32b5)
