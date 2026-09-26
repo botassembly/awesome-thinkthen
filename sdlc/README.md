@@ -1,6 +1,6 @@
 # sdlc/
 
-The system of record for awesome-thinkthen. The Claude marketing session owns this queue (Ian, 2026-09-24).
+The system of record for this awesome list. The Claude marketing session owns this queue (Ian, 2026-09-24).
 
 | Folder | What it is |
 | --- | --- |
