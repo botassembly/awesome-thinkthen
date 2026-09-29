@@ -2,7 +2,9 @@
 
 Status: Open
 
-JevBench v1.2 (scored 2026-09-19, harness at https://github.com/fstandhartinger/jevbench) measures 21 decision systems on 534 decisions. Ian's clipping is `notes/clippings/JevBench.md`. Its open systems are the first candidates for this list:
+JevBench v1.2 (scored 2026-09-19, harness at https://github.com/fstandhartinger/jevbench) measures 21 decision systems on 534 decisions.
+
+Refreshed 2026-09-29: the board is now v1.4.2.2 at https://www.benchmarkheaven.com/jev-models/v1.4.2.2, scored 2026-09-27. It ranks 91 systems, and its open-model category (https://www.benchmarkheaven.com/jev-models/open-source-jev) holds 62. Imajev-4B leads the composite at 67.37, and Jev 1.13.0 sits fourth at 63.29. The composite blends intelligence, calibration, speed, and cost. Work the candidates top-down: each still needs the compliance check and a dated result before it lists. Ian's clipping is `notes/clippings/JevBench.md`. Its open systems are the first candidates for this list:
 
 - SemIf, formerly OpenJev (Qwen3.5-4B): https://github.com/TheoLeeCJ/openjev
 - openjev-sglang (Qwen3.6-35B-A3B on SGLang): https://github.com/ekzhang/openjev-sglang

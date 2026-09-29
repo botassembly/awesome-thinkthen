@@ -14,7 +14,7 @@ A backend joins this list after the ThinkThen compliance check passes against it
 
 ## Models you run yourself
 
-Nothing listed yet.
+- [Kev](https://github.com/jaredpalmer/kev): Qwen-based decision models from 0.8B to 27B that speak the System One API and ship their own server. Check passed against Kev-4B on Apple Silicon: critical 0, warning 0, 2026-09-29.
 
 ## Servers
 
