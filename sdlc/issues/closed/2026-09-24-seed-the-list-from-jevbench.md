@@ -1,6 +1,6 @@
 # Seed the list from JevBench
 
-Status: Open
+Status: Closed 2026-09-29. Ian ruled the list does not harvest the board: the board gets a link, and a model earns an entry by being tested. Kev was tested and listed; the rest stay out. His rulings sit in sdlc/planning/2026-09-29-knowledge-base-and-leaderboard.md.
 
 JevBench v1.2 (scored 2026-09-19, harness at https://github.com/fstandhartinger/jevbench) measures 21 decision systems on 534 decisions.
 
