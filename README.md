@@ -44,16 +44,9 @@ The hard set is the 505 questions from the seven categories where Jev scores wor
 
 The catalog is [papers.md](papers.md), and the papers themselves sit in [papers/](papers/) as Markdown, fetched from arXiv with [markxiv](https://www.markxiv.org/).
 
-## A note on the API
+## APIs
 
-ThinkThen speaks System One, TypeSafe's decision API:
+The decision APIs this list tracks live in [apis/](apis/README.md), one file each:
 
-- One endpoint: `BASE/systemone`.
-- One request: a model, a state to judge, and one or more typed questions.
-- Three question types:
-  - `noul`, yes or no, answered with a probability.
-  - `choice`, pick one option, answered with a probability for every option.
-  - `score`, rate on a rubric, answered with a probability for every level.
-- Nothing generates text.
-
-TypeSafe documents the shape at [docs.typesafe.ai](https://docs.typesafe.ai/api), and ThinkThen's own specification covers [how a backend supplies it](https://github.com/botassembly/thinkthen/blob/main/specification/backends.md). Liquid d1 and Kev speak it natively; Laya reaches it through a shim. OpenAI's Decisions API is announced, and ThinkThen aims to support it beside System One.
+- [System One](apis/system1.md): TypeSafe's decision API, the shape Jev, Liquid d1, Kev, and Ollama's decision models speak. Supported today, with the published schema and the dialects each backend speaks.
+- [Decisions API](apis/decisions-api.md): OpenAI's announced decision API. Waiting on OpenAI's documentation.
