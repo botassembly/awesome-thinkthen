@@ -26,9 +26,9 @@ An object description conventionally holds `what`, `not_for`, and `examples`, no
 
 The schema is the norm; the live reference API accepts every form above (compliance check passed 2026-09-30, all rows). Two backends each reject a different corner of it:
 
-| Backend | Refuses | Error | Observed |
-| --- | --- | --- | --- |
-| Liquid d1 | a `null` description on `noul` | 422, `questions.q1.criteria.false` | 2026-09-29 |
-| Ollama 0.35 | an `object` description, every question type | 400, `score criteria must be an array of descriptions` | 2026-09-30 |
+| Backend | Refuses | Error | Observed | Status |
+| --- | --- | --- | --- | --- |
+| Liquid d1 | a `null` description on `noul` | 422, `questions.q1.criteria.false` | 2026-09-29 | Resolved 2026-09-30: ThinkThen serializes the portable form, and the hosted check passes clean |
+| Ollama 0.35 | an `object` description, every question type | 400, `score criteria must be an array of descriptions` | 2026-09-30 | Open. ThinkThen's portable serialization covers it once it lands there too |
 
-Strings and nulls pass on Ollama, and its own announcement example uses nulls. Strings pass on Liquid. Backends verified clean against the full check: TypeSafe Jev (2026-09-30), Kev (2026-09-29).
+Strings and nulls pass on Ollama, and its own announcement example uses nulls. Strings pass on Liquid. Backends verified clean against the full check: TypeSafe Jev (2026-09-30), Liquid d1 (2026-09-30), Kev (2026-09-29), Laya through stuntdouble's wrapper (2026-09-30).

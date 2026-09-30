@@ -9,3 +9,4 @@ Dictated after the first standings work. This note steers the queue.
 5. **No pull requests.** Contributors open an issue with the check output; maintainers make the change. `CONTRIBUTING.md` says so, and the deck's backends slide copy must follow (issue filed with mktg).
 6. **Benchmarks section:** Beatles Bench, the JevBench board, and jevbench.dev. A private benchmark may join the leaderboard later; it names itself when it does.
 7. **Support goal:** System One plus whatever decision format OpenAI ships. Liquid speaks System One natively; Kev does too; Laya reached it through a shim.
+8. **Ollama entries wait on the check.** nimble and tev1 speak System One through Ollama 0.35, but the compliance check still carries three criticals, all the object-criteria corner. They list when the check passes on either side (Ollama accepting objects, or ThinkThen's portable serialization landing). Filed 2026-09-30.

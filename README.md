@@ -7,7 +7,7 @@ An entry joins this list after the ThinkThen compliance check passes against it,
 ## Hosted backends
 
 - [Jev](https://docs.typesafe.ai/): the decision model ThinkThen was built on. Check passed, critical 0, warning 0, first recorded 2026-09-23.
-- [Liquid d1](https://docs.liquid.ai/lfm/models/decision-models): a decision foundation model from an MIT spin-off, at `api.liquid.ai`. Every check row passed 2026-09-29 except one critical: it refuses a one-sided decide criteria question. The fix sits in ThinkThen.
+- [Liquid d1](https://docs.liquid.ai/lfm/models/decision-models): a decision foundation model from an MIT spin-off, at `api.liquid.ai`. Check passed, critical 0, warning 0, 2026-09-30.
 
 ## Models you run yourself
 
@@ -21,7 +21,7 @@ An entry joins this list after the ThinkThen compliance check passes against it,
 ## Benchmarks
 
 - [Beatles Bench](https://github.com/botassembly/beatles-bench): knowledge judgments over Beatles songs, run through ThinkThen. The leaderboard below scores every backend we test on it.
-- [JevBench, by Benchmark Heaven](https://www.benchmarkheaven.com/jev-models/v1.5.4): the typed-decision board. 106 systems as of 2026-09-29, scored on a composite of intelligence, calibration, speed, and cost. [Harness](https://github.com/fstandhartinger/jevbench).
+- [JevBench, by Benchmark Heaven](https://www.benchmarkheaven.com/jev-models/v1.5.4): the typed-decision board. 106 systems as of 2026-09-30, scored on a composite of intelligence, calibration, speed, and cost. [Harness](https://github.com/fstandhartinger/jevbench).
 - [JevBench.dev](https://jevbench.dev/): a different project that shares the name and says so itself; it ranks models by verified game wins in StarCraft II and Minecraft. The two boards are unaffiliated, and neither's scores convert to the other's.
 
 A model earns an entry here by being tested, not by being ranked, so the open-model half of the Benchmark Heaven board is not copied into this list.

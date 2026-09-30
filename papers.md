@@ -12,6 +12,10 @@ The catalog for the ThinkThen knowledge base. Papers listed with a `markxiv` lin
 - JevBench. Benchmark Heaven. [Leaderboard](https://www.benchmarkheaven.com/jev-models/v1.4.2.2), [harness](https://github.com/fstandhartinger/jevbench), [game board](https://jevbench.dev/)
 - Beatles Bench. Bot Assembly, 2026-09. [Repository](https://github.com/botassembly/beatles-bench)
 
+## Talks and videos
+
+- Jev, ThinkThen, and Beatles Bench. Ian Maurer, recorded 2026-09-30. Lands here with its video link.
+
 ## Applications
 
 - Jev + graphical models: a paradigm shift? Frank Dellaert, 2026-09. One Jev request fills every probability table in an eight-variable Bayes network. [Notebook](https://gist.github.com/dellaert/ed9c8ed6bbfa22a4f027474b9c3e32b5)
