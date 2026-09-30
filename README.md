@@ -12,7 +12,7 @@ An entry joins this list after the ThinkThen compliance check passes against it,
 ## Models you run yourself
 
 - [Kev](https://github.com/jaredpalmer/kev): Qwen-based decision models from 0.8B to 27B, with their own server. Check passed against Kev-4B on Apple Silicon: critical 0, warning 0, 2026-09-29.
-- [Laya](https://github.com/aac6fef/laya-mlx): ModernBERT-large under MLX, about 421M parameters. It does not speak System One itself; a small shim serves it on that API. Benched through the shim on 2026-09-23. No check row.
+- [Laya](https://github.com/mizorewww/laya-mlx): ModernBERT-large under MLX, about 421M parameters ([weights](https://huggingface.co/aac6fef/laya-mlx)). Served on System One by [stuntdouble's sidecar](https://github.com/ReallyArtificial/stuntdouble#sidecars), `sidecars/laya.py`. Check passed through that wrapper: critical 0, warning 0, 2026-09-30. Benched 2026-09-23.
 
 ## Announced
 
