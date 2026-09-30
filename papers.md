@@ -1,6 +1,6 @@
 # Papers and articles
 
-The catalog for the ThinkThen knowledge base. Papers listed with a `markxiv` link are kept here as Markdown: replace `arxiv.org` with `markxiv.org` in the paper's abs URL and the Markdown comes back, as in `https://markxiv.org/abs/1706.03762`. Fetched copies live under `papers/` once curating starts; the seed list is the 31-paper arXiv review of 2026-09-28.
+The catalog for the ThinkThen knowledge base. Papers listed with a `markxiv` link are kept here as Markdown: replace `arxiv.org` with `markxiv.org` in the paper's abs URL and the Markdown comes back, as in `https://markxiv.org/abs/1706.03762`. Fetched copies live in [papers/](papers/). All 31 papers of the 2026-09-28 arXiv review of Jev are downloaded as Markdown through markxiv.
 
 ## Foundational
 
