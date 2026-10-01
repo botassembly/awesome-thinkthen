@@ -1,6 +1,6 @@
 # 0001 — Kev listed after its compliance check
 
-Landed 2026-09-29. Experiment 414 (`~/workspace/experiments/414-kev-check-and-bench/RESULTS.md`) reduced the named risk: Kev claimed the System One contract, and the list's entry rule needs a passing ThinkThen compliance check, not a README's word.
+Landed 2026-09-29. A local experiment (414) reduced the named risk: Kev claimed the System One contract, and the list's entry rule needs a passing ThinkThen compliance check, not a README's word.
 
 ## What ran
 

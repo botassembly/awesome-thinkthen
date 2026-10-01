@@ -3,7 +3,7 @@
 Markdown copies of the arXiv papers in the catalog, fetched with [markxiv](https://www.markxiv.org/):
 replace `arxiv.org` with `markxiv.org` in a paper's abs URL, as in `https://markxiv.org/abs/2609.22753`.
 
-All 31 come from the arXiv review of Jev, 2026-09-28 (`notes/thinkthen/architecture/Arxiv review of Jev.md` in the workspace). They are preprints, not peer-reviewed results. Before this repository opens, check each paper's license or replace the copies with links.
+All 31 come from the arXiv review of Jev, 2026-09-28. They are preprints, not peer-reviewed results. Before this repository opens, check each paper's license or replace the copies with links.
 
 | arXiv | Title |
 | --- | --- |
