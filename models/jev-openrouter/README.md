@@ -53,6 +53,8 @@ Median 0.30 s a call, about 0.12 s more than the same calls sent straight to Typ
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13: full dataset 70.6%, Beatles-only 67.5%, hard set 56.2%, no refusals. Median 0.50 s a call with four calls in flight. Full report: [Jev through OpenRouter on Beatles Bench, 2026-10-13](../../reports/jev-openrouter-2026-10-13.md). Answers and call times: [results/bench-2026-10-13/](results/bench-2026-10-13/).
 
 ## Cost

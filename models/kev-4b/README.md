@@ -54,6 +54,8 @@ Wall seconds include starting the command. Kev-4B routes the refund to `other` r
 
 ### Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13: full dataset 47.9%, Beatles-only 44.9%, hard set 39.8%, no refusals. Full report: [Kev-4B on Beatles Bench, 2026-10-13](../../reports/kev-4b-2026-10-13.md). The run of 2026-09-29 through the same server scored 47.2% ([report](../../reports/kev-4b-2026-09-29.md)).
 
 ## llama.cpp

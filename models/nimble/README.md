@@ -56,6 +56,8 @@ Wall seconds include starting the command. nimble is the only local model on thi
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13 through `--backend ollama`: full dataset 52.6%, Beatles-only 49.1%, hard set 43.5%, no refusals. Full report: [nimble on Beatles Bench, 2026-10-13](../../reports/nimble-2026-10-13.md).
 
 ## Timings

@@ -56,6 +56,8 @@ Wall seconds include starting the command. The server answered every call, but m
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13: full dataset 36.8%, Beatles-only 35.0%, hard set 32.1%, no refusals. Full report: [Strands Decider 2B on Beatles Bench, 2026-10-13](../../reports/strands-decider-2026-10-13.md). The bench names no backend, so its questions travel as authored, not through the `mlx` text workaround; none was refused.
 
 ## Timings

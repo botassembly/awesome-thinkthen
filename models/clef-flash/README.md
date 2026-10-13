@@ -56,6 +56,8 @@ Wall seconds include starting the command. Two answers differ from what a reader
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13: full dataset 53.4%, Beatles-only 50.4%, hard set 43.4%, no refusals. Full report: [Clef-Flash on Beatles Bench, 2026-10-13](../../reports/clef-flash-2026-10-13.md).
 
 ## Timings

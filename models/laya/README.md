@@ -55,6 +55,8 @@ Wall seconds include starting the command. Laya answered every call, but several
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13 through the sidecar: full dataset 34.1%, Beatles-only 33.4%, hard set 28.5%, no refusals. Full report: [Laya on Beatles Bench, 2026-10-13](../../reports/laya-2026-10-13.md). The earlier run of 2026-09-23 went through a different System One shim and scored 35.8% ([report](../../reports/laya-2026-09-23.md)).
 
 ## Timings

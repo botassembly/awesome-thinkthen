@@ -47,6 +47,8 @@ Median 0.34 s a call. Every call answered. Raw rows: [results/functions-2026-10-
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13: full dataset 65.4%, Beatles-only 62.8%, hard set 54.1%, no refusals. Median 0.51 s a call with four calls in flight. Full report: [pplx-decider on Beatles Bench, 2026-10-13](../../reports/pplx-decider-2026-10-13.md). Answers and call times: [results/bench-2026-10-13/](results/bench-2026-10-13/).
 
 ## Cost

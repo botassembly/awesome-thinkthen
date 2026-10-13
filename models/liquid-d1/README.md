@@ -46,6 +46,8 @@ Median 0.68 s a call. Every call answered. Liquid reports no output tokens. Thin
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13 under ThinkThen 0.2: full dataset 69.3%, Beatles-only 66.5%, hard set 56.8%, no refusals in the final answers. Median 2.74 s a call. Full report: [Liquid d1 on Beatles Bench, 2026-10-13](../../reports/liquid-d1-2026-10-13.md). Answers and call times: [results/bench-2026-10-13/](results/bench-2026-10-13/).
 
 Asked 2026-09-29: full dataset 63.8%, Beatles-only 60.4%, hard set 50.8%, median 0.26 s a request ([report](../../reports/liquid-d1-2026-09-29.md)). The new score is 5.5 points higher, outside that run's 95% interval. Replies still name `d1:free`, and Liquid publishes no version, so this list cannot tell whether the model behind the name changed.

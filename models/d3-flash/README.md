@@ -56,6 +56,8 @@ Wall seconds include starting the command. Every answer but one matches what a r
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13: full dataset 60.6%, Beatles-only 58.0%, hard set 49.1%, no refusals. Full report: [d3-flash on Beatles Bench, 2026-10-13](../../reports/d3-flash-2026-10-13.md).
 
 ## Timings

@@ -57,6 +57,8 @@ Scores run from 0 (calm) to 2 (angry). Wall seconds include starting the command
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13 through `--backend ollama`, no refusals:
 
 - tev1 4B: full dataset 43.6%, Beatles-only 40.3%, hard set 33.7%. Full report: [tev1 4B on Beatles Bench, 2026-10-13](../../reports/tev1-4b-2026-10-13.md).

@@ -46,6 +46,8 @@ Median 0.18 s a call. Every call answered. Raw rows: [results/functions-2026-10-
 
 ## Beatles Bench
 
+The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
+
 Asked 2026-10-13 under ThinkThen 0.2: full dataset 69.8%, Beatles-only 66.6%, hard set 55.7%, no refusals. Median 0.32 s a call with four calls in flight. Full report: [Jev on Beatles Bench, 2026-10-13](../../reports/jev-2026-10-13.md). Answers and call times: [results/bench-2026-10-13/](results/bench-2026-10-13/).
 
 Asked 2026-09-26: full dataset 70.2%, Beatles-only 67.0%, hard set 55.9%, median 0.21 s a request ([report](../../reports/jev-2026-09-26.md)).
