@@ -15,3 +15,5 @@ Ian, 2026-10-13: a separate initiative on 0.2, run now in parallel with 0.3.
 - Changes: each entry becomes a folder, such as `models/jev/README.md`, with setup, a `backends check` run, a short timed run of each function, and the scripts that produced them. Models already on the list move first, because their checks already passed. Each new hosted model needs an account and a key; each local model runs on M5.
 - Proof: a reader follows a folder's README on a clean machine and gets the same check result. Timings carry the machine or the hosted region and the date.
 - Defers: any model whose account Ian has not authorized. ThinkThen 0.2 already has built-in `openai` and `perplexity` backends, so both are in scope once their keys exist.
+
+Ian, 2026-10-13: keep the ranked leaderboard, best first. The root README shows at most ten ranked rows under the 2026-09-29 rule; runs.md holds every run.

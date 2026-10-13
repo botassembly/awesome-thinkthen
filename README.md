@@ -42,7 +42,7 @@ A model earns an entry here by being tested, not by being ranked, so the open-mo
 
 The bench's main score measures what a model remembers about Beatles songs, a trivia test, not how well it decides questions about text you hand it, so treat it as one data point, not a ranking of decision quality.
 
-Every system we have run on Beatles Bench, best first among decision models. The large language model sits below the line as the yardstick, with reasoning off. Full reports: [runs.md](runs.md).
+The ten best decision models we have run on Beatles Bench, best first. The large language model sits below the line as the yardstick, with reasoning off. Every run, including Strands Decider 2B, tev1 0.8B and Laya, is in [runs.md](runs.md), and every tested model has a guide in [models/](models/README.md).
 
 | # | System | Where | Full dataset, 1,501 | Hard set, 505 | Report |
 | --- | --- | --- | --- | --- | --- |
@@ -56,12 +56,9 @@ Every system we have run on Beatles Bench, best first among decision models. The
 | 8 | [nimble](models/nimble/README.md) | local | 52.6% | 43.5% | [2026-10-13](reports/nimble-2026-10-13.md) |
 | 9 | [Kev-4B](models/kev-4b/README.md) | local | 47.9% | 39.8% | [2026-10-13](reports/kev-4b-2026-10-13.md) |
 | 10 | [tev1 4B](models/tev1/README.md) | local | 43.6% | 33.7% | [2026-10-13](reports/tev1-4b-2026-10-13.md) |
-| 11 | [Strands Decider 2B](models/strands-decider/README.md) | local | 36.8% | 32.1% | [2026-10-13](reports/strands-decider-2026-10-13.md) |
-| 12 | [tev1 0.8B](models/tev1/README.md) | local | 36.8% | 31.3% | [2026-10-13](reports/tev1-0.8b-2026-10-13.md) |
-| 13 | [Laya](models/laya/README.md) | local | 34.1% | 28.5% | [2026-10-13](reports/laya-2026-10-13.md) |
 | — | GLM-5.3 Flash, reasoning off | hosted | 96.7% | 95.4% | [2026-09-23](reports/glm-5.3-flash-2026-09-23.md) |
 
-The hard set is the 505 questions from the seven categories where Jev scores worst. Each row is its newest run, under ThinkThen 0.2. Local rows ran on the M5 Max with ThinkThen on the same machine; Strands Decider 2B and tev1 0.8B tie on the full dataset and sit in hard-set order. The OpenAI Decisions API refused 9 questions, scored as wrong. The three rows after it differ by less than their 95% intervals, about 2.3 points either way on the full dataset, so the order among them is not settled.
+The hard set is the 505 questions from the seven categories where Jev scores worst. Each row is its newest run, under ThinkThen 0.2. Local rows ran on the M5 Max with ThinkThen on the same machine. The OpenAI Decisions API refused 9 questions, scored as wrong. The three rows after it differ by less than their 95% intervals, about 2.3 points either way on the full dataset, so the order among them is not settled.
 
 ## Papers and articles
 
