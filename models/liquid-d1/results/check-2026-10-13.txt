@@ -1,0 +1,27 @@
+url https://api.liquid.ai/decisions/v1/systemone
+provider systemone
+model asked unspecified
+model sent d1:free
+reply noul {"model":"d1:free","answers":[{"kind":"yes_no","probability":0.9975273773211654}],"usage":{"input_tokens":71,"output_tokens":0}}
+reply choice {"model":"d1:free","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.00002752587037469989,"Tuesday":0.9996155133814972,"Wednesday":0.000356960748128234},"confidence":0.999423270072246}],"usage":{"input_tokens":101,"output_tokens":0}}
+reply score {"model":"d1:free","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.008574449733751002,"good":0.00035390980728264315,"excellent":0.9910716404589665},"confidence":0.9866074606884494}],"usage":{"input_tokens":106,"output_tokens":0}}
+reply mixed {"model":"d1:free","answers":[{"kind":"yes_no","probability":0.7981867729389246},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.00006605213632373204,"Tuesday":0.9999339478636764},"confidence":0.9998678957273528},{"kind":"score","level":"good","probabilities":{"poor":0.000519304756155337,"good":0.9994806952438448},"confidence":0.9989613904876896},{"kind":"tag","probabilities":{"on_time":0.5,"damaged":0.0002453695061303751}}],"usage":{"input_tokens":470,"output_tokens":0}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0

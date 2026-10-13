@@ -1,0 +1,28 @@
+url http://localhost:8000/v1/systemone
+provider systemone
+model asked unspecified
+model sent strands-decider-2B-hobson-v19
+reply noul {"model":"strands-decider-2B-hobson-v19","answers":[{"kind":"yes_no","probability":0.8443}],"usage":{"input_tokens":92,"output_tokens":1}}
+reply choice {"model":"strands-decider-2B-hobson-v19","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0879,"Tuesday":0.88,"Wednesday":0.0321},"confidence":0.82}],"usage":{"input_tokens":83,"output_tokens":1}}
+reply score {"model":"strands-decider-2B-hobson-v19","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.1644,"good":0.0897,"excellent":0.7458},"confidence":0.3562}],"usage":{"input_tokens":97,"output_tokens":1}}
+reply mixed {"model":"strands-decider-2B-hobson-v19","answers":[{"kind":"yes_no","probability":0.7589},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0263,"Tuesday":0.9737},"confidence":0.9474},{"kind":"score","level":"good","probabilities":{"poor":0.3152,"good":0.6848},"confidence":0.1926},{"kind":"tag","probabilities":{"on_time":0.7026,"damaged":0.1479}}],"usage":{"input_tokens":352,"output_tokens":5}}
+ok connection
+ok key
+ok endpoint
+ok noul
+warning choice: backend `mlx` sends each description object as its `what` text, a temporary workaround for the Strands server schema, so its other fields are left out
+warning score: backend `mlx` sends each description object as its `what` text, a temporary workaround for the Strands server schema, so its other fields are left out
+warning mixed: backend `mlx` sends each description object as its `what` text, a temporary workaround for the Strands server schema, so its other fields are left out
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 3
+exit 0

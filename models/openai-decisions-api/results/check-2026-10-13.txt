@@ -1,0 +1,27 @@
+url https://api.openai.com/v1/decisions
+provider systemone
+model asked unspecified
+model sent gpt-6-luna
+reply noul {"model":"gpt-6-luna","answers":[{"kind":"yes_no","probability":1.0}],"usage":{"input_tokens":180,"output_tokens":0}}
+reply choice {"model":"gpt-6-luna","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0,"Tuesday":1.0,"Wednesday":0.0},"confidence":1.0}],"usage":{"input_tokens":145,"output_tokens":0}}
+reply score {"model":"gpt-6-luna","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.01,"good":0.01,"excellent":0.98},"confidence":0.96}],"usage":{"input_tokens":150,"output_tokens":0}}
+reply mixed {"model":"gpt-6-luna","answers":[{"kind":"yes_no","probability":0.5},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0,"Tuesday":1.0},"confidence":1.0},{"kind":"score","level":"good","probabilities":{"poor":0.13,"good":0.87},"confidence":0.74},{"kind":"tag","probabilities":{"on_time":0.5,"damaged":0.05}}],"usage":{"input_tokens":723,"output_tokens":0}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0

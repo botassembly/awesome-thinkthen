@@ -1,0 +1,23 @@
+url https://openrouter.ai/api/v1/systemone
+provider systemone
+model asked typesafe/jev-router
+model sent typesafe/jev-router
+ok connection
+ok key
+ok endpoint
+critical noul: the backend answered with status 400: the backend refused the request; check --model and the request size
+critical choice: the backend answered with status 400: the backend refused the request; check --model and the request size
+critical score: the backend answered with status 400: the backend refused the request; check --model and the request size
+critical mixed: the backend answered with status 400: the backend refused the request; check --model and the request size
+unchecked usage
+incompatible function decide: the backend answered with status 400
+incompatible function choose: the backend answered with status 400
+incompatible function tag: the backend answered with status 400
+incompatible function score: the backend answered with status 400
+incompatible function filter: the backend answered with status 400
+incompatible function rank: the backend answered with status 400
+incompatible function find: the backend answered with status 400
+incompatible function annotate: the backend answered with status 400
+incompatible function recognize: the backend answered with status 400
+incompatible function relate: the backend answered with status 400
+critical 14, warning 0

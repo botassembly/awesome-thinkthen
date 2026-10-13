@@ -1,0 +1,27 @@
+url https://openrouter.ai/api/v1/systemone
+provider systemone
+model asked unspecified
+model sent typesafe/jev-1.13
+reply noul {"model":"typesafe/jev-1.13-20260917","answers":[{"kind":"yes_no","probability":0.95}],"usage":{"input_tokens":312,"output_tokens":21}}
+reply choice {"model":"typesafe/jev-1.13-20260917","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0,"Tuesday":1.0,"Wednesday":0.0},"confidence":1.0}],"usage":{"input_tokens":353,"output_tokens":39}}
+reply score {"model":"typesafe/jev-1.13-20260917","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.03,"good":0.0,"excellent":0.97},"confidence":0.91}],"usage":{"input_tokens":338,"output_tokens":18}}
+reply mixed {"model":"typesafe/jev-1.13-20260917","answers":[{"kind":"yes_no","probability":0.6},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0,"Tuesday":1.0},"confidence":1.0},{"kind":"score","level":"good","probabilities":{"poor":0.0,"good":1.0},"confidence":1.0},{"kind":"tag","probabilities":{"on_time":0.48,"damaged":0.03}}],"usage":{"input_tokens":480,"output_tokens":98}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0

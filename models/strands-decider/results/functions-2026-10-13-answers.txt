@@ -1,0 +1,20 @@
+== decide
+true
+== choose
+"other"
+== tag
+["damage"]
+== score
+1.1304
+== filter
+== rank
+{"id":"ISS-103","body":"App is slow sometimes. Not sure when. It just feels laggy lately."}
+{"id":"ISS-101","body":"Export to CSV writes an empty file. Steps: open any report, choose Export, pick CSV, save. The file is 0 bytes every time on build 4.2.1."}
+{"id":"ISS-102","body":"Could we get a dark theme? The white background is rough at night."}
+== find
+Standard delivery arrives in two to four working days.
+== annotate
+{"refund":false,"team":"other"}
+== recognize
+{"entities":[]}
+== relate

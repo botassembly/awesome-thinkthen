@@ -1,0 +1,21 @@
+full dataset 1501: 60.6%
+Beatles-only 1313: 58.0%
+hard set 505: 49.1%
+refusals: 0
+median wall s a request: 0.492
+input tokens: 223,133
+forward	0.536
+reverse	0.509
+multi-hop	0.500
+single-hop	0.653
+comparison	0.800
+shared-lead	0.500
+lead-set	0.663
+near-neighbor	0.633
+near-neighbor-control	0.733
+lexical-trap	0.389
+lexical-trap-control	0.537
+none-of-these	0.567
+reversal	0.508
+reversal-general	0.733
+reversal-general-shared-name	0.976

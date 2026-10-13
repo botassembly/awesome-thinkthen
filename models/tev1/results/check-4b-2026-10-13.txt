@@ -1,0 +1,28 @@
+url http://localhost:11434/v1/systemone
+provider systemone
+model asked tev1:4b
+model sent tev1:4b
+reply noul {"model":"tev1:4b","answers":[{"kind":"yes_no","probability":0.9626731126558706}],"usage":{"input_tokens":125,"output_tokens":0}}
+reply choice {"model":"tev1:4b","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.00017941554502153064,"Tuesday":0.9991943626709534,"Wednesday":0.0006262217840250773},"confidence":0.9936539880045828}],"usage":{"input_tokens":144,"output_tokens":0}}
+reply score {"model":"tev1:4b","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.015882892576759254,"good":0.0014773391402151006,"excellent":0.9826397682830256},"confidence":0.9156824251758506}],"usage":{"input_tokens":146,"output_tokens":0}}
+reply mixed {"model":"tev1:4b","answers":[{"kind":"yes_no","probability":0.37754066879814546},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0015011822567369917,"Tuesday":0.998498817743263},"confidence":0.9837552613004232},{"kind":"score","level":"good","probabilities":{"poor":0.0021827164453451808,"good":0.9978172835546548},"confidence":0.977559974696744},{"kind":"tag","probabilities":{"on_time":0.22270013882530884,"damaged":0.002800926967120973}}],"usage":{"input_tokens":630,"output_tokens":0}}
+ok connection
+ok key
+ok endpoint
+ok noul
+warning choice: backend `ollama` sends each description object as its `what` text, a temporary workaround for an Ollama bug, so its other fields are left out
+warning score: backend `ollama` sends each description object as its `what` text, a temporary workaround for an Ollama bug, so its other fields are left out
+warning mixed: backend `ollama` sends each description object as its `what` text, a temporary workaround for an Ollama bug, so its other fields are left out
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 3
+exit 0

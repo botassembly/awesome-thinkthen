@@ -1,0 +1,27 @@
+url https://api.perplexity.ai/v1/decisions
+provider systemone
+model asked unspecified
+model sent pplx-decider-v1-27b
+reply noul {"model":"pplx-decider-v1-27b","answers":[{"kind":"yes_no","probability":0.989046181784492}],"usage":{"input_tokens":105,"output_tokens":1}}
+reply choice {"model":"pplx-decider-v1-27b","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.00011683861558713592,"Tuesday":0.9995763338301734,"Wednesday":0.00030682755423943025},"confidence":0.99936450074526}],"usage":{"input_tokens":124,"output_tokens":1}}
+reply score {"model":"pplx-decider-v1-27b","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.016308156656615568,"good":0.0003252568759645443,"excellent":0.98336658646742},"confidence":0.9670584298108044}],"usage":{"input_tokens":125,"output_tokens":1}}
+reply mixed {"model":"pplx-decider-v1-27b","answers":[{"kind":"yes_no","probability":0.6916985263122822},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.00008302249410421526,"Tuesday":0.9999169775058958},"confidence":0.9998339550117916},{"kind":"score","level":"good","probabilities":{"poor":0.0018307379711322285,"good":0.998169262028868},"confidence":0.9963385240577356},{"kind":"tag","probabilities":{"on_time":0.2605593927158517,"damaged":0.0001144303660155485}}],"usage":{"input_tokens":547,"output_tokens":5}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0

@@ -1,0 +1,22 @@
+== decide
+true
+== choose
+"other"
+== tag
+["damage","refund_request"]
+== score
+0.8684
+== filter
+{"id":"ISS-101","body":"Export to CSV writes an empty file. Steps: open any report, choose Export, pick CSV, save. The file is 0 bytes every time on build 4.2.1."}
+== rank
+{"id":"ISS-101","body":"Export to CSV writes an empty file. Steps: open any report, choose Export, pick CSV, save. The file is 0 bytes every time on build 4.2.1."}
+{"id":"ISS-102","body":"Could we get a dark theme? The white background is rough at night."}
+{"id":"ISS-103","body":"App is slow sometimes. Not sure when. It just feels laggy lately."}
+== find
+Standard delivery arrives in two to four working days.
+== annotate
+{"refund":true,"team":"other"}
+== recognize
+{"entities":[]}
+== relate
+{"relation":"works_for","source":{"name":"Maria Chen","kind":"person"},"target":{"name":"Northwind Freight","kind":"organization"},"probability":0.5778}
