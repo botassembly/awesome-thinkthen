@@ -1,0 +1,25 @@
+url http://127.0.0.1:11434/v1/systemone
+provider systemone
+model asked tev1:4b
+model sent tev1:4b
+reply noul {"model":"tev1:4b","answers":[{"kind":"yes_no","probability":0.9626731126558706}],"usage":{"input_tokens":125,"output_tokens":0}}
+ok connection
+ok key
+ok endpoint
+ok noul
+critical choice: the backend answered with status 400: the backend refused the request; check --model and the request size
+critical score: the backend answered with status 400: the backend refused the request; check --model and the request size
+critical mixed: the backend answered with status 400: the backend refused the request; check --model and the request size
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 3, warning 0
+exit 4
