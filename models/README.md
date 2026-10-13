@@ -7,7 +7,14 @@ One folder per model the list carries. Each folder's README shows how to reach t
 - [pplx-decider](pplx-decider/README.md): hosted, Perplexity.
 - [Jev through OpenRouter](jev-openrouter/README.md): hosted, TypeSafe's Jev reached through OpenRouter.
 - [gpt-6-luna](gpt-6-luna/README.md): hosted, OpenAI's Decisions API. Tested, not yet working.
-- [Kev-4B](kev-4b/README.md): local, served by Kev's own server.
+- [d3-flash](d3-flash/README.md): local, Decision 3.0's 9B model, served by llama.cpp.
+- [Clef-Flash](clef-flash/README.md): local, Cloudflare's 9B model, served by llama.cpp.
+- [nimble](nimble/README.md): local, Bespoke Labs' 9B model, served by Ollama.
+- [Kev-4B](kev-4b/README.md): local, served by Kev's own server or by llama.cpp.
+- [tev1](tev1/README.md): local, Together AI's 4B and 0.8B models, served by Ollama.
+- [Strands Decider 2B](strands-decider/README.md): local, served by its own MLX server.
 - [Laya](laya/README.md): local, served through stuntdouble's System One sidecar.
+
+The local guides share the scripts in [scripts/](scripts/): building ThinkThen 0.2 from source, installing llama.cpp and Ollama, timing the ten functions, and scoring a Beatles Bench run.
 
 A line that reads "Not yet measured" or "Not yet recorded" marks a fact the list has not checked yet. A future live run fills it in with its date and its machine or hosted region.
