@@ -1,8 +1,10 @@
 # 0002 — One tested guide per model
 
-Status: OPEN.
+Status: COMPLETE.
 
 Reviews: revision 45c8d99, accept
+
+Landed: 9911c06
 
 ## Outcome
 
