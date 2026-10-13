@@ -1,18 +1,18 @@
 # Awesome ThinkThen
 
-Models, servers, benchmarks, and papers that work with [ThinkThen](https://github.com/botassembly/thinkthen). ThinkThen turns a decision model's three endpoints into ten typed functions for the shell, libraries, and databases.
+Models, servers, benchmarks, and papers that work with [ThinkThen](https://github.com/botassembly/thinkthen). ThinkThen turns a decision model's three endpoints into ten typed functions for the shell, libraries, and databases. Each model has a [guide](models/README.md) that shows how to use it with ThinkThen 0.2.
 
 An entry joins this list after the ThinkThen compliance check passes against it, and each entry names the check's result and the date it ran. To add something, [open an issue](CONTRIBUTING.md). Pull requests are not accepted.
 
 ## Hosted backends
 
-- [Jev](https://docs.typesafe.ai/): the decision model ThinkThen was built on. Check passed, critical 0, warning 0, first recorded 2026-09-23.
-- [Liquid d1](https://docs.liquid.ai/lfm/models/decision-models): a decision foundation model from an MIT spin-off, at `api.liquid.ai`. Check passed, critical 0, warning 0, 2026-09-30.
+- [Jev](models/jev/README.md): the decision model ThinkThen was built on, from [TypeSafe](https://docs.typesafe.ai/). Check passed, critical 0, warning 0, first recorded 2026-09-23.
+- [Liquid d1](models/liquid-d1/README.md): a [decision foundation model](https://docs.liquid.ai/lfm/models/decision-models) from an MIT spin-off, at `api.liquid.ai`. Check passed, critical 0, warning 0, 2026-09-30.
 
 ## Models you run yourself
 
-- [Kev](https://github.com/jaredpalmer/kev): Qwen-based decision models from 0.8B to 27B, with their own server. Check passed against Kev-4B on Apple Silicon: critical 0, warning 0, 2026-09-29.
-- [Laya](https://github.com/mizorewww/laya-mlx): ModernBERT-large under MLX, about 421M parameters ([weights](https://huggingface.co/aac6fef/laya-mlx)). Served on System One by [stuntdouble's sidecar](https://github.com/ReallyArtificial/stuntdouble#sidecars), `sidecars/laya.py`. Check passed through that wrapper: critical 0, warning 0, 2026-09-30. Benched 2026-09-23.
+- [Kev-4B](models/kev-4b/README.md): the 4B size of [Kev](https://github.com/jaredpalmer/kev), Qwen-based decision models from 0.8B to 27B with their own server. Check passed against Kev-4B on Apple Silicon: critical 0, warning 0, 2026-09-29.
+- [Laya](models/laya/README.md): [ModernBERT-large under MLX](https://github.com/mizorewww/laya-mlx), about 421M parameters ([weights](https://huggingface.co/aac6fef/laya-mlx)). Served on System One by [stuntdouble's sidecar](https://github.com/ReallyArtificial/stuntdouble#sidecars), `sidecars/laya.py`. Check passed through that wrapper: critical 0, warning 0, 2026-09-30. Benched 2026-09-23.
 
 ## Announced
 
@@ -32,10 +32,10 @@ Every system we have run on Beatles Bench, best first among decision models. The
 
 | # | System | Where | Full dataset, 1,501 | Hard set, 505 | Report |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Jev | hosted | 70.2% | 55.9% | [2026-09-26](reports/jev-2026-09-26.md) |
-| 2 | Liquid d1 | hosted | 63.8% | 50.8% | [2026-09-29](reports/liquid-d1-2026-09-29.md) |
-| 3 | Kev-4B | local | 47.2% | 39.0% | [2026-09-29](reports/kev-4b-2026-09-29.md) |
-| 4 | Laya | local | 35.8% | 29.9% | [2026-09-23](reports/laya-2026-09-23.md) |
+| 1 | [Jev](models/jev/README.md) | hosted | 70.2% | 55.9% | [2026-09-26](reports/jev-2026-09-26.md) |
+| 2 | [Liquid d1](models/liquid-d1/README.md) | hosted | 63.8% | 50.8% | [2026-09-29](reports/liquid-d1-2026-09-29.md) |
+| 3 | [Kev-4B](models/kev-4b/README.md) | local | 47.2% | 39.0% | [2026-09-29](reports/kev-4b-2026-09-29.md) |
+| 4 | [Laya](models/laya/README.md) | local | 35.8% | 29.9% | [2026-09-23](reports/laya-2026-09-23.md) |
 | — | GLM-5.3 Flash, reasoning off | hosted | 96.7% | 95.4% | [2026-09-23](reports/glm-5.3-flash-2026-09-23.md) |
 
 The hard set is the 505 questions from the seven categories where Jev scores worst.
