@@ -1,0 +1,23 @@
+url https://api.openai.com/v1/decisions
+provider systemone
+model asked unspecified
+model sent gpt-6-luna
+ok connection
+ok key
+ok endpoint
+critical noul: the backend answered with status 429: the backend's rate limit was reached after the allowed attempts; try again later or change --max-retries
+critical choice: the backend answered with status 429: the backend's rate limit was reached after the allowed attempts; try again later or change --max-retries
+critical score: the backend answered with status 429: the backend's rate limit was reached after the allowed attempts; try again later or change --max-retries
+critical mixed: the backend answered with status 429: the backend's rate limit was reached after the allowed attempts; try again later or change --max-retries
+unchecked usage
+incompatible function decide: the backend answered with status 429
+incompatible function choose: the backend answered with status 429
+incompatible function tag: the backend answered with status 429
+incompatible function score: the backend answered with status 429
+incompatible function filter: the backend answered with status 429
+incompatible function rank: the backend answered with status 429
+incompatible function find: the backend answered with status 429
+incompatible function annotate: the backend answered with status 429
+incompatible function recognize: the backend answered with status 429
+incompatible function relate: the backend answered with status 429
+critical 14, warning 0
