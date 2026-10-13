@@ -1,0 +1,28 @@
+url http://localhost:8080/v1/systemone
+provider systemone
+model asked unspecified
+model sent local
+reply noul {"model":"local","answers":[{"kind":"yes_no","probability":0.9766233491298482}],"usage":{"input_tokens":39,"output_tokens":0}}
+reply choice {"model":"local","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.011978122541452687,"Tuesday":0.8582726781441282,"Wednesday":0.12974919931441903},"confidence":0.7874090172161922}],"usage":{"input_tokens":55,"output_tokens":0}}
+reply score {"model":"local","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.24595527393177985,"good":0.010308141527265186,"excellent":0.743736584540955},"confidence":0.2466719659137626}],"usage":{"input_tokens":52,"output_tokens":0}}
+reply mixed {"model":"local","answers":[{"kind":"yes_no","probability":0.636174499610295},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.05348146779256007,"Tuesday":0.94651853220744},"confidence":0.8930370644148797},{"kind":"score","level":"good","probabilities":{"poor":0.055566318731584005,"good":0.944433681268416},"confidence":0.888867362536832},{"kind":"tag","probabilities":{"on_time":0.27652444931734893,"damaged":0.045157051315414885}}],"usage":{"input_tokens":181,"output_tokens":0}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0
+exit 0

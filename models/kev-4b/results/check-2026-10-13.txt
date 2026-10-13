@@ -1,0 +1,28 @@
+url http://127.0.0.1:8009/v1/systemone
+provider systemone
+model asked kev-latest
+model sent kev-latest
+reply noul {"model":"kev-latest","answers":[{"kind":"yes_no","probability":0.9708}],"usage":{"input_tokens":39,"output_tokens":23}}
+reply choice {"model":"kev-latest","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0151,"Tuesday":0.813,"Wednesday":0.1719},"confidence":0.7194}],"usage":{"input_tokens":55,"output_tokens":63}}
+reply score {"model":"kev-latest","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.2657,"good":0.01,"excellent":0.7243},"confidence":0.1879}],"usage":{"input_tokens":52,"output_tokens":108}}
+reply mixed {"model":"kev-latest","answers":[{"kind":"yes_no","probability":0.6257},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0532,"Tuesday":0.9468},"confidence":0.8936},{"kind":"score","level":"good","probabilities":{"poor":0.0641,"good":0.9359},"confidence":0.8718},{"kind":"tag","probabilities":{"on_time":0.2727,"damaged":0.0832}}],"usage":{"input_tokens":129,"output_tokens":196}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0
+exit 0
