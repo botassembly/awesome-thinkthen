@@ -1,0 +1,11 @@
+function	exit	wall_s	requests	input_tokens	output_tokens
+decide	0	0.323	1	142	1
+choose	0	0.352	1	144	1
+tag	0	0.363	1	619	4
+score	0	0.317	1	140	1
+filter	0	0.396	1	379	3
+rank	0	0.354	1	367	3
+find	0	0.331	1	201	1
+annotate	0	0.322	1	286	2
+recognize	0	1.193	2	2666	13
+relate	0	0.320	1	157	1

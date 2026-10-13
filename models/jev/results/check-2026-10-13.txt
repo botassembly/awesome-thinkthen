@@ -1,0 +1,27 @@
+url https://api.typesafe.ai/v1/systemone
+provider systemone
+model asked unspecified
+model sent jev-1.13.0
+reply noul {"model":"jev-1.13.0","answers":[{"kind":"yes_no","probability":0.96}],"usage":{"input_tokens":307,"output_tokens":21}}
+reply choice {"model":"jev-1.13.0","answers":[{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0,"Tuesday":1.0,"Wednesday":0.0},"confidence":1.0}],"usage":{"input_tokens":353,"output_tokens":39}}
+reply score {"model":"jev-1.13.0","answers":[{"kind":"score","level":"excellent","probabilities":{"fair":0.02,"good":0.0,"excellent":0.98},"confidence":0.94}],"usage":{"input_tokens":338,"output_tokens":18}}
+reply mixed {"model":"jev-1.13.0","answers":[{"kind":"yes_no","probability":0.59},{"kind":"choice","pick":"Tuesday","probabilities":{"Monday":0.0,"Tuesday":1.0},"confidence":1.0},{"kind":"score","level":"good","probabilities":{"poor":0.0,"good":1.0},"confidence":1.0},{"kind":"tag","probabilities":{"on_time":0.51,"damaged":0.03}}],"usage":{"input_tokens":470,"output_tokens":98}}
+ok connection
+ok key
+ok endpoint
+ok noul
+ok choice
+ok score
+ok mixed
+ok usage
+answered function decide
+answered function choose
+answered function tag
+answered function score
+answered function filter
+answered function rank
+answered function find
+answered function annotate
+answered function recognize
+answered function relate
+critical 0, warning 0
