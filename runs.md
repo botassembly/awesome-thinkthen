@@ -9,3 +9,7 @@ One row per Beatles Bench run behind the [leaderboard](README.md#leaderboard). E
 | 2026-09-26 | Jev, jev-1.13.0 | hosted, TypeSafe | 70.2% | 55.9% | [report](reports/jev-2026-09-26.md) |
 | 2026-09-29 | Liquid d1, d1:free | hosted, api.liquid.ai | 63.8% | 50.8% | [report](reports/liquid-d1-2026-09-29.md) |
 | 2026-09-29 | Kev-4B | local, a MacBook with an M5 chip, served by `kev.serve` | 47.2% | 39.0% | [report](reports/kev-4b-2026-09-29.md) |
+| 2026-10-13 | Jev, jev-1.13.0 | hosted, TypeSafe, ThinkThen 0.2 | 69.8% | 55.7% | [report](reports/jev-2026-10-13.md) |
+| 2026-10-13 | Liquid d1, d1:free | hosted, api.liquid.ai, ThinkThen 0.2 | 69.3% | 56.8% | [report](reports/liquid-d1-2026-10-13.md) |
+| 2026-10-13 | pplx-decider, pplx-decider-v1-27b | hosted, Perplexity, ThinkThen 0.2 | 65.4% | 54.1% | [report](reports/pplx-decider-2026-10-13.md) |
+| 2026-10-13 | Jev through OpenRouter, typesafe/jev-1.13 | hosted, OpenRouter, ThinkThen 0.2 | 70.6% | 56.2% | [report](reports/jev-openrouter-2026-10-13.md) |
