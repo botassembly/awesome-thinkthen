@@ -21,3 +21,4 @@ One row per Beatles Bench run behind the [leaderboard](README.md#leaderboard). E
 | 2026-10-13 | Strands Decider 2B, hobson-v19 | local, a MacBook Pro with an M5 Max chip, served by `strands-decider serve` under MLX, ThinkThen 0.2 | 36.8% | 32.1% | [report](reports/strands-decider-2026-10-13.md) |
 | 2026-10-13 | tev1 0.8B | local, a MacBook Pro with an M5 Max chip, served by Ollama 0.40.3, ThinkThen 0.2 | 36.8% | 31.3% | [report](reports/tev1-0.8b-2026-10-13.md) |
 | 2026-10-13 | Laya | local, a MacBook Pro with an M5 Max chip, served by stuntdouble's sidecar, ThinkThen 0.2 | 34.1% | 28.5% | [report](reports/laya-2026-10-13.md) |
+| 2026-10-13 | OpenAI Decisions API, gpt-6-luna | hosted, OpenAI, ThinkThen 0.2 | 88.2% | 83.2% | [report](reports/openai-decisions-api-2026-10-13.md) |

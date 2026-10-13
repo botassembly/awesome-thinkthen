@@ -1,5 +1,5 @@
 #!/bin/sh
-# Ask Beatles Bench's 1,501 knowledge questions of gpt-6-luna through ThinkThen's built-in openai backend, then score them.
+# Ask Beatles Bench's 1,501 knowledge questions of the OpenAI Decisions API, model gpt-6-luna, through ThinkThen's built-in openai backend, then score them.
 #   scripts/bench.sh BENCH_DIR NAME [FLAG...]
 # BENCH_DIR is a clone of https://github.com/botassembly/beatles-bench. The answers, the recording and the wall time
 # of each call go to BENCH_DIR/results/runs/<today>-thinkthen-NAME; running again the same day resumes a stopped run.
