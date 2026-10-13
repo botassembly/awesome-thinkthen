@@ -4,15 +4,15 @@
 
 ## Setup
 
-- **Base address:** the host is `api.liquid.ai`. The full base address, with its path, is not yet recorded here.
+- **Base address:** `https://api.liquid.ai/decisions/v1`, the base of ThinkThen 0.2's built-in `liquid` backend.
 - **Model name:** `d1:free`. On 2026-09-29 the endpoint listed this one model and published no price.
-- **Key:** a Liquid AI key. The environment variable ThinkThen 0.2 reads it from is not yet recorded here.
+- **Key:** a Liquid AI key in `LIQUIDAI_API_KEY`, or `LIQUID_API_KEY`.
 - **Wrapper:** none.
 
 Check the backend with:
 
 ```
-thinkthen check --url LIQUID_BASE_URL --model d1:free
+thinkthen backends check --backend liquid
 ```
 
 `LIQUID_BASE_URL` stands for the full base address above. This list has not yet recorded that exact command and its output against ThinkThen 0.2.

@@ -8,12 +8,12 @@
 - **Machine:** a MacBook with an M5 chip.
 - **Base address:** the Beatles Bench run of 2026-09-23 reached the shim through an SSH tunnel on port 8791. The base address the sidecar serves, with its path, is not yet recorded here.
 - **Model name:** not yet recorded here.
-- **Key:** not yet recorded here, nor whether ThinkThen 0.2 needs a placeholder key for the sidecar.
+- **Key:** ThinkThen 0.2 sends no key to a loopback address when none is set, so a sidecar on your own machine needs no placeholder. Whether the sidecar itself checks a key is not yet recorded here.
 
 The exact commands to install Laya and start the sidecar are not yet recorded here; see stuntdouble's README. Check the backend with:
 
 ```
-thinkthen check --url LAYA_BASE_URL --model LAYA_MODEL
+thinkthen backends check --url LAYA_BASE_URL --model LAYA_MODEL
 ```
 
 `LAYA_BASE_URL` and `LAYA_MODEL` stand for the sidecar's base address and model name. This list has not yet recorded that exact command and its output against ThinkThen 0.2.

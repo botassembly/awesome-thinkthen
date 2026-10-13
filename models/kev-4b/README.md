@@ -7,13 +7,13 @@
 - **Server:** Kev's own server, `kev.serve`, under MLX on Apple Silicon. The tested machine was a MacBook with an M5 chip.
 - **Base address:** `http://127.0.0.1:8731/v1`. ThinkThen refuses plain http off localhost, so a remote Kev server is reached through an SSH tunnel to port 8731 on the local machine.
 - **Model name:** `kev-latest`, served as Kev-4B.
-- **Key:** the tested setup records no key. Whether ThinkThen 0.2 needs a placeholder key for a local server is not yet recorded here.
+- **Key:** the tested setup records no key. ThinkThen 0.2 sends no key to a `localhost`, `127.0.0.1` or `[::1]` address when none is set, so a local server needs no placeholder.
 - **Wrapper:** none. Kev speaks System One itself.
 
 The exact commands to install Kev and start `kev.serve` with the 4B weights are not yet recorded here; see Kev's own README. Check the backend with:
 
 ```
-thinkthen check --url http://127.0.0.1:8731/v1 --model kev-latest
+thinkthen backends check --url http://127.0.0.1:8731/v1 --model kev-latest
 ```
 
 ## Compliance check

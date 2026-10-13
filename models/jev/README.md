@@ -6,13 +6,13 @@
 
 - **Base address:** `https://api.typesafe.ai/v1`. System One takes requests at `POST BASE/systemone`, so Jev answers at `https://api.typesafe.ai/v1/systemone` with Bearer authentication. The paper [2609.28940](../../papers/2609.28940.md) shows that address in its code listings.
 - **Model name:** `jev-1.13.0` ran the Beatles Bench run of 2026-09-26. TypeSafe also accepts `jev-latest`, per the same paper.
-- **Key:** a TypeSafe API key, sent as a Bearer token. The environment variable ThinkThen 0.2 reads it from is not yet recorded here.
+- **Key:** a TypeSafe API key in `TYPESAFE_API_KEY` when you name the built-in `typesafe` backend, or in `THINKTHEN_API_KEY` when you name no backend. Jev is ThinkThen's default address, so `THINKTHEN_API_KEY` alone reaches it.
 - **Wrapper:** none.
 
 Check the backend with:
 
 ```
-thinkthen check --url https://api.typesafe.ai/v1 --model jev-1.13.0
+thinkthen backends check --backend typesafe
 ```
 
 This list has not yet recorded that exact command and its output against ThinkThen 0.2.
