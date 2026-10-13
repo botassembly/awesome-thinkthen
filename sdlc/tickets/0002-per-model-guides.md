@@ -2,6 +2,8 @@
 
 Status: OPEN.
 
+Reviews: revision 45c8d99, accept
+
 ## Outcome
 
 Every model the list carries gets its own folder with a README, the scripts that ran it and any other materials. The README shows how to use that model with ThinkThen 0.2, locally or hosted, with the date it was tested and the timings found. The top README points to every folder's README. Bugs found in ThinkThen go to the thinkthen PM for 0.3.
